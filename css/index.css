@@ -46,6 +46,12 @@ li > .title {
     text-align: center;
 }
 
+li > .title > input {
+    width: 80%;
+    height: 20px;
+    outline: none;
+}
+
 li > .icon {
     font-size: 10px;
     height: 20px;
@@ -54,6 +60,7 @@ li > .icon {
     text-align: center;
     position: absolute;
     left: 80px;
+    cursor: pointer;
 }
 
 nav > .tabadd {
@@ -69,14 +76,18 @@ nav > .tabadd {
 
 .tabadd > span {
     float: right;
+    cursor: pointer;
 }
 
 .tabscon > section {
+    padding: 30px;
     width: 800px;
     height: 350px;
     display: none;
-    line-height: 350px;
-    text-align: center;
+}
+
+.tabscon > section > textarea {
+    outline: none;
 }
 
 .tabscon > section.conactive {
